@@ -47,9 +47,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 app.use(express.static(path.join(__dirname, "/public")));
 
-app.get("/", (req, res) => {
-    console.log("Hi, I am krish");
-})
+// app.get("/", (req, res) => {
+//     console.log("Hi, I am krish");
+// })
 
 
 // cookies part
